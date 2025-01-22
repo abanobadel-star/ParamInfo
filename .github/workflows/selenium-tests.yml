@@ -1,3 +1,13 @@
+name: Run Selenium Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to run tests on"
+        required: false
+        default: "main"
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -13,7 +23,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '11'
-          cache: 'maven'
+          cache: 'maven"
 
       - name: Install Chrome
         run: |
