@@ -1,5 +1,5 @@
 Feature: Subscription Package
-
+  @Run
   Scenario Outline: check Price Subscription Very Country
     Given user in Home Page
     When user open country list
