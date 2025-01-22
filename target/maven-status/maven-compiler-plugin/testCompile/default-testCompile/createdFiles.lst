@@ -1,6 +1,5 @@
 StepDef\HomePageStepDef.class
-configuration\tedt.class
-Runner\Runner.class
 org\tests\TestBase.class
 org\tests\SubscriptionPackages.class
 StepDef\Hooks.class
+TestRunner\runner.class

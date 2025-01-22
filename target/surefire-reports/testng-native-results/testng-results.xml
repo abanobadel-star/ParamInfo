@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-21T17:14:03 EET" name="Surefire suite" finished-at="2025-01-21T17:15:42 EET" duration-ms="98954">
+    <groups>
+    </groups>
+    <test started-at="2025-01-21T17:14:03 EET" name="Surefire test" finished-at="2025-01-21T17:15:42 EET" duration-ms="98954">
+      <class name="org.tests.SubscriptionPackages">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:03 EET" name="startDriver" finished-at="2025-01-21T17:14:12 EET" duration-ms="9100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:12 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:15 EET" duration-ms="2682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Egypt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #eg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ Egyptian pound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPriceSubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:15 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPriceSubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:15 EET" name="tearDown" finished-at="2025-01-21T17:14:15 EET" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:15 EET" name="startDriver" finished-at="2025-01-21T17:14:20 EET" duration-ms="5104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:20 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:23 EET" duration-ms="2896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UAE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #ae]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPriceSubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:23 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:23 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPriceSubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:23 EET" name="tearDown" finished-at="2025-01-21T17:14:23 EET" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:23 EET" name="startDriver" finished-at="2025-01-21T17:14:29 EET" duration-ms="5578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:29 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:32 EET" duration-ms="2710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jordon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #jo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.99]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JOD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPriceSubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:32 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:32 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPriceSubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:32 EET" name="tearDown" finished-at="2025-01-21T17:14:32 EET" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:32 EET" name="startDriver" finished-at="2025-01-21T17:14:42 EET" duration-ms="10012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:42 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:49 EET" duration-ms="7324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Egypt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #eg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ Egyptian pound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTypeOFSubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:49 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:49 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTypeOFSubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:49 EET" name="tearDown" finished-at="2025-01-21T17:14:50 EET" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:50 EET" name="startDriver" finished-at="2025-01-21T17:14:55 EET" duration-ms="5342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:55 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:58 EET" duration-ms="2726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UAE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #ae]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTypeOFSubscriptionVeryCountry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:58 EET" name="tearDown" finished-at="2025-01-21T17:14:58 EET" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:58 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:58 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTypeOFSubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:58 EET" name="startDriver" finished-at="2025-01-21T17:15:04 EET" duration-ms="5282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:04 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:07 EET" duration-ms="2972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jordon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #jo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.99]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JOD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTypeOFSubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:07 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:07 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTypeOFSubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:07 EET" name="tearDown" finished-at="2025-01-21T17:15:07 EET" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:07 EET" name="startDriver" finished-at="2025-01-21T17:15:21 EET" duration-ms="13722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:21 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:24 EET" duration-ms="3096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Egypt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #eg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ Egyptian pound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencySubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:24 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:24 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCurrencySubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:24 EET" name="tearDown" finished-at="2025-01-21T17:15:24 EET" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:24 EET" name="startDriver" finished-at="2025-01-21T17:15:30 EET" duration-ms="5750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:30 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:33 EET" duration-ms="2514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UAE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #ae]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencySubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:33 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:33 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCurrencySubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:33 EET" name="tearDown" finished-at="2025-01-21T17:15:33 EET" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:33 EET" name="startDriver" finished-at="2025-01-21T17:15:39 EET" duration-ms="5764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:39 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:41 EET" duration-ms="2439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jordon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By.cssSelector: #jo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.99]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JOD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencySubscriptionVeryCountry -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:41 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:41 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCurrencySubscriptionVeryCountry status=SUCCESS method=SubscriptionPackages.checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotAfterTestFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:41 EET" name="tearDown" finished-at="2025-01-21T17:15:42 EET" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.tests.SubscriptionPackages -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
