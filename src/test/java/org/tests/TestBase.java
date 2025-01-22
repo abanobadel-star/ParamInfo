@@ -29,9 +29,9 @@ public class TestBase {
     static String configPath = System.getProperty("user.dir") + "\\src\\test\\java\\configuration\\config.properties";
 
     public TestBase() throws IOException {
-        prop = new Properties();
-        FileInputStream file = new FileInputStream(configPath);
-        prop.load(file);
+//        prop = new Properties();
+//        FileInputStream file = new FileInputStream(configPath);
+//        prop.load(file);
     }
     @Parameters({"browser"})
     @BeforeMethod
@@ -50,7 +50,7 @@ public class TestBase {
             WebDriverManager.edgedriver().setup();
             driver = new InternetExplorerDriver();
         }
-        driver.get(prop.getProperty("URL"));
+        driver.get("https://subscribe.jawwy.tv/eg-en");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
     }

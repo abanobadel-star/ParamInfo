@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Ignore target directory
+target/
+
+# Ignore specific Maven files
+**/target/
+**/.mvn/
+**/.idea/
+
+# Ignore test reports
+target/*.html
+target/*.xml
+target/**/*.xml
+target/**/*.html
+target/**/test-*.txt
+target/surefire-reports/
+target/maven-status/

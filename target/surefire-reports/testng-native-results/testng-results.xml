@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-21T17:14:03 EET" name="Surefire suite" finished-at="2025-01-21T17:15:42 EET" duration-ms="98954">
+  <suite started-at="2025-01-22T13:00:42 EET" name="Surefire suite" finished-at="2025-01-22T13:02:21 EET" duration-ms="99517">
     <groups>
     </groups>
-    <test started-at="2025-01-21T17:14:03 EET" name="Surefire test" finished-at="2025-01-21T17:15:42 EET" duration-ms="98954">
+    <test started-at="2025-01-22T13:00:42 EET" name="Surefire test" finished-at="2025-01-22T13:02:21 EET" duration-ms="99517">
       <class name="org.tests.SubscriptionPackages">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:03 EET" name="startDriver" finished-at="2025-01-21T17:14:12 EET" duration-ms="9100" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:00:42 EET" name="startDriver" finished-at="2025-01-22T13:00:50 EET" duration-ms="8491" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:12 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:15 EET" duration-ms="2682" status="PASS">
+        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:00:50 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:00:53 EET" duration-ms="3102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPriceSubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:15 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:15 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:00:53 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:00:53 EET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:15 EET" name="tearDown" finished-at="2025-01-21T17:14:15 EET" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:00:53 EET" name="tearDown" finished-at="2025-01-22T13:00:54 EET" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:15 EET" name="startDriver" finished-at="2025-01-21T17:14:20 EET" duration-ms="5104" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:00:54 EET" name="startDriver" finished-at="2025-01-22T13:00:59 EET" duration-ms="5058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:20 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:23 EET" duration-ms="2896" status="PASS">
+        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:00:59 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:01:02 EET" duration-ms="2745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPriceSubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:23 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:23 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:02 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:01:02 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,11 +117,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:23 EET" name="tearDown" finished-at="2025-01-21T17:14:23 EET" duration-ms="491" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:02 EET" name="tearDown" finished-at="2025-01-22T13:01:03 EET" duration-ms="1011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:23 EET" name="startDriver" finished-at="2025-01-21T17:14:29 EET" duration-ms="5578" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:03 EET" name="startDriver" finished-at="2025-01-22T13:01:09 EET" duration-ms="5521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:29 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:32 EET" duration-ms="2710" status="PASS">
+        <test-method signature="checkPriceSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:09 EET" name="checkPriceSubscriptionVeryCountry" description="Verify price of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:01:11 EET" duration-ms="2873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPriceSubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:32 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:32 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:11 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:01:11 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,11 +174,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:32 EET" name="tearDown" finished-at="2025-01-21T17:14:32 EET" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:11 EET" name="tearDown" finished-at="2025-01-22T13:01:12 EET" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:32 EET" name="startDriver" finished-at="2025-01-21T17:14:42 EET" duration-ms="10012" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:12 EET" name="startDriver" finished-at="2025-01-22T13:01:35 EET" duration-ms="23086" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:42 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:49 EET" duration-ms="7324" status="PASS">
+        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:35 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:01:37 EET" duration-ms="2510" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,7 +220,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTypeOFSubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:49 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:49 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:37 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:01:37 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,11 +231,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:49 EET" name="tearDown" finished-at="2025-01-21T17:14:50 EET" duration-ms="398" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:37 EET" name="tearDown" finished-at="2025-01-22T13:01:38 EET" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:50 EET" name="startDriver" finished-at="2025-01-21T17:14:55 EET" duration-ms="5342" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:38 EET" name="startDriver" finished-at="2025-01-22T13:01:43 EET" duration-ms="5385" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,7 +246,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:55 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:14:58 EET" duration-ms="2726" status="PASS">
+        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:43 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:01:46 EET" duration-ms="2897" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,11 +277,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTypeOFSubscriptionVeryCountry -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:58 EET" name="tearDown" finished-at="2025-01-21T17:14:58 EET" duration-ms="496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:58 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:14:58 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:46 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:01:46 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -292,7 +288,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:14:58 EET" name="startDriver" finished-at="2025-01-21T17:15:04 EET" duration-ms="5282" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:46 EET" name="tearDown" finished-at="2025-01-22T13:01:47 EET" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:47 EET" name="startDriver" finished-at="2025-01-22T13:01:52 EET" duration-ms="5208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:04 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:07 EET" duration-ms="2972" status="PASS">
+        <test-method signature="checkTypeOFSubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:52 EET" name="checkTypeOFSubscriptionVeryCountry" description="Verify type of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:01:54 EET" duration-ms="2567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -334,7 +334,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTypeOFSubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:07 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:07 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:54 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:01:54 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,11 +345,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:07 EET" name="tearDown" finished-at="2025-01-21T17:15:07 EET" duration-ms="500" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:54 EET" name="tearDown" finished-at="2025-01-22T13:01:55 EET" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:07 EET" name="startDriver" finished-at="2025-01-21T17:15:21 EET" duration-ms="13722" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:01:55 EET" name="startDriver" finished-at="2025-01-22T13:02:01 EET" duration-ms="6353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,7 +360,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:21 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:24 EET" duration-ms="3096" status="PASS">
+        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:01 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:02:04 EET" duration-ms="2468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -391,7 +391,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrencySubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:24 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:24 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:04 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:02:04 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,11 +402,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:24 EET" name="tearDown" finished-at="2025-01-21T17:15:24 EET" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:04 EET" name="tearDown" finished-at="2025-01-22T13:02:04 EET" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:24 EET" name="startDriver" finished-at="2025-01-21T17:15:30 EET" duration-ms="5750" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:04 EET" name="startDriver" finished-at="2025-01-22T13:02:10 EET" duration-ms="5884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -417,7 +417,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:30 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:33 EET" duration-ms="2514" status="PASS">
+        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:10 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:02:13 EET" duration-ms="2866" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -448,7 +448,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrencySubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:33 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:33 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:13 EET" name="tearDown" finished-at="2025-01-22T13:02:13 EET" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:13 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:02:13 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -459,11 +463,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:33 EET" name="tearDown" finished-at="2025-01-21T17:15:33 EET" duration-ms="418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:33 EET" name="startDriver" finished-at="2025-01-21T17:15:39 EET" duration-ms="5764" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:13 EET" name="startDriver" finished-at="2025-01-22T13:02:18 EET" duration-ms="5224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -474,7 +474,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:39 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-21T17:15:41 EET" duration-ms="2439" status="PASS">
+        <test-method signature="checkCurrencySubscriptionVeryCountry(java.lang.String,org.openqa.selenium.By,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:18 EET" name="checkCurrencySubscriptionVeryCountry" description="Verify currency of subscription for country" data-provider="Country-List-Test-Data" finished-at="2025-01-22T13:02:21 EET" duration-ms="2536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -505,7 +505,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrencySubscriptionVeryCountry -->
-        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:41 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-21T17:15:41 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:21 EET" name="tearDown" finished-at="2025-01-22T13:02:21 EET" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="takeScreenShotAfterTestFail(org.testng.ITestResult)[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-22T13:02:21 EET" name="takeScreenShotAfterTestFail" finished-at="2025-01-22T13:02:21 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -516,10 +520,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotAfterTestFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SubscriptionPackages@527e5409]" started-at="2025-01-21T17:15:41 EET" name="tearDown" finished-at="2025-01-21T17:15:42 EET" duration-ms="438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- org.tests.SubscriptionPackages -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
