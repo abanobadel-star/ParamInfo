@@ -1,5 +1,7 @@
 package org.tests;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.pages.HomePage;
 import org.testng.Assert;
@@ -8,12 +10,11 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class SubscriptionPackages extends TestBase{
-
+public class SubscriptionPackages extends TestBase {
+    private static final Logger logger = LogManager.getLogger(SubscriptionPackages.class);
     public SubscriptionPackages() throws IOException {
         super();
     }
-
     /**
      * home page object.
      */
@@ -31,10 +32,12 @@ public class SubscriptionPackages extends TestBase{
         description = "Verify price of subscription for country")
     public void checkPriceSubscriptionVeryCountry( String nameOfCountry, By locatorsOFTheCountry,
             String typeOfSubscription, String priceOfSubscription, String currencyOfSubscription) {
-        homePage = new HomePage(driver);
-        driver.findElement(homePage.getListOfCountryArrow()).click();
-        driver.findElement(locatorsOFTheCountry).click();
-        Assert.assertEquals(driver.findElement(homePage.getPriceOFSubscription()).getText(),priceOfSubscription);
+        logger.info("Starting check price for country: " + nameOfCountry);
+        homePage = new HomePage(getDriver());
+        getDriver().findElement(homePage.getListOfCountryArrow()).click();
+        getDriver().findElement(locatorsOFTheCountry).click();
+        Assert.assertEquals(getDriver().findElement(homePage.getPriceOFSubscription()).getText(),priceOfSubscription);
+        logger.info("Test completed check price for country: " + nameOfCountry);
     }
 
     /**
@@ -50,10 +53,12 @@ public class SubscriptionPackages extends TestBase{
     public void checkTypeOFSubscriptionVeryCountry(
         String nameOfCountry, By locatorsOFTheCountry, String typeOfSubscription,
         String priceOfSubscription, String currencyOfSubscription) {
-        homePage = new HomePage(driver);
-        driver.findElement(homePage.getListOfCountryArrow()).click();
-        driver.findElement(locatorsOFTheCountry).click();
-        Assert.assertEquals(driver.findElement(homePage.getSubscribeType()).getText(),typeOfSubscription);
+        logger.info("Starting test check type of subscription for country: " + nameOfCountry);
+        homePage = new HomePage(getDriver());
+        getDriver().findElement(homePage.getListOfCountryArrow()).click();
+        getDriver().findElement(locatorsOFTheCountry).click();
+        Assert.assertEquals(getDriver().findElement(homePage.getSubscribeType()).getText(),typeOfSubscription);
+        logger.info("Test completed check type of subscription  for country: " + nameOfCountry);
     }
 
     /**
@@ -68,19 +73,15 @@ public class SubscriptionPackages extends TestBase{
         description = "Verify currency of subscription for country")
     public void checkCurrencySubscriptionVeryCountry( String nameOfCountry, By locatorsOFTheCountry,
            String typeOfSubscription, String priceOfSubscription, String currencyOfSubscription) {
-        homePage = new HomePage(driver);
-        driver.findElement(homePage.getListOfCountryArrow()).click();
-        driver.findElement(locatorsOFTheCountry).click();
+        logger.info("Starting test check currency for country: " + nameOfCountry);
+        homePage = new HomePage(getDriver());
+        getDriver().findElement(homePage.getListOfCountryArrow()).click();
+        getDriver().findElement(locatorsOFTheCountry).click();
         Assert.assertTrue(
-            driver.findElement(homePage.getCurrencyOFSubscription()).getText().contains(currencyOfSubscription));
+            getDriver().findElement(homePage.getCurrencyOFSubscription()).getText().contains(currencyOfSubscription));
+        logger.info("Test completed check currency  for country: " + nameOfCountry);
     }
-
-    /**
-     * Gets the test data.
-     *
-     * @return the test data
-     */
-    @DataProvider(name = "Country-List-Test-Data")
+    @DataProvider(name = "Country-List-Test-Data", parallel = true)
     public Object[][] countryListTestData() {
         Object[][] data = new Object[][] {
             {"Egypt", By.cssSelector("#eg"),"CLASSIC","10.00"," Egyptian pound"},

@@ -14,17 +14,12 @@ import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.Properties;
 
 public class TestBase {
-
-    public static WebDriver driver;
+    private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
     public static Properties prop;
     static String configPath = System.getProperty("user.dir") + "\\src\\test\\java\\configuration\\config.properties";
 
@@ -36,6 +31,7 @@ public class TestBase {
     @Parameters({"browser"})
     @BeforeMethod
     public void startDriver(@Optional("chrome") String browserName) {
+        WebDriver driver = null;
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         if (browserName.equalsIgnoreCase("chrome")) {
@@ -50,21 +46,28 @@ public class TestBase {
             WebDriverManager.edgedriver().setup();
             driver = new InternetExplorerDriver();
         }
-        driver.get(prop.getProperty("URL"));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
+        driver.get(prop.getProperty("URL"));
+        driverThreadLocal.set(driver); // Store in ThreadLocal
     }
 
     @AfterMethod
-    public void tearDown() {
-        driver.quit();
-    }
-    @AfterMethod
-    public void takeScreenShotAfterTestFail(ITestResult testResult) throws IOException {
-        if(testResult.getStatus() == ITestResult.FAILURE) {
+    public void tearDown(ITestResult testResult) throws IOException {
+        WebDriver driver = driverThreadLocal.get();
+        if (testResult.getStatus() == ITestResult.FAILURE && driver != null) {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            File dest=new File("errorScreenShot/"+ testResult.getName()+ ".png");
+            File dest = new File("errorScreenShot/" + testResult.getName() + ".png");
             FileUtils.copyFile(scrFile, dest);
         }
+
+        if (driver != null) {
+            driver.quit();
+            driverThreadLocal.remove();
+        }
+    }
+    // Method to get the WebDriver instance for the current thread
+    public WebDriver getDriver() {
+        return driverThreadLocal.get();
     }
 }
