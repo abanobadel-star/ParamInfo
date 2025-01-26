@@ -1,3 +1,13 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Ignore compiled class files
+target/test-classes/org/tests/TestBase.class
+target/classes/log4j2.xml
+target/generated-sources
+
+# Ignore log4j configuration files
+src/main/resources/log4j2.xml
+
+# Ignore logs
+logs/test.log
